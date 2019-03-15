@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="logging_settings_title">
+
+    <PreferenceCategory android:key="logging_section">
+
+        <SwitchPreference
+            android:key="logging_gps"
+            android:title="GPS log"
+            android:summary="Include GPS log for logging."/>
+
+        <SwitchPreference
+            android:key="logging_sensor"
+            android:title="Sensor log"
+            android:summary="Include sensor log for logging."/>
+
+        <SwitchPreference
+            android:key="logging_voice"
+            android:title="Voice log"
+            android:summary="Include voice record for logging."/>
+
+        <SwitchPreference
+            android:key="logging_api_call"
+            android:title="API call log"
+            android:summary="Include API call log for logging."/>
+
+        <SwitchPreference
+            android:key="logging_network"
+            android:title="Network log"
+            android:summary="Include network related log for logging."/>
+
+        <SwitchPreference
+            android:key="logging_activity"
+            android:title="Activity log"
+            android:summary="Include activity log for logging."/>
+
+    </PreferenceCategory>
+</PreferenceScreen>
