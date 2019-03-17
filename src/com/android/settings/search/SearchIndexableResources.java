@@ -68,6 +68,7 @@ import com.android.settings.inputmethod.VirtualKeyboardFragment;
 import com.android.settings.language.LanguageAndInputSettings;
 import com.android.settings.location.LocationSettings;
 import com.android.settings.location.ScanningSettings;
+import com.android.settings.logging.LoggingSettings;
 import com.android.settings.network.NetworkDashboardFragment;
 import com.android.settings.nfc.PaymentSettings;
 import com.android.settings.notification.ChannelImportanceSettings;
@@ -216,6 +217,7 @@ public final class SearchIndexableResources {
                 AutomaticStorageManagerSettings.class,
                 NO_DATA_RES_ID,
                 R.drawable.ic_settings_storage);
+        addIndex(LoggingSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_language);
     }
 
     private SearchIndexableResources() {
